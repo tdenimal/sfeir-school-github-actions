@@ -18,7 +18,7 @@ jobs:
             node-version: ${{env.NODE_VERSION}}
         - name : echo_node_version
           shell: bash
-          run: echo ${node -v}
+          run: echo $(node -v)
         - name: run test
           shell: bash
           run: |

@@ -2,11 +2,6 @@ name: npm test
 on: 
   workflow_dispatch:
 
-
-node version 14, lts
-runner os ubuntu-latest and ubuntu-18.04
-Run the node version 12 only for the os ubuntu-latest
-
 jobs:
   run-npm-install:
     strategy:

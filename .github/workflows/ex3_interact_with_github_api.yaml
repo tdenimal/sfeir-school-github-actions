@@ -1,7 +1,6 @@
 name: interact with Github API
 on:
   workflow_dispatch:
-  pull_request:
 
 jobs:
   create-issue:
